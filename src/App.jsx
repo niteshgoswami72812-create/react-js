@@ -1,6 +1,13 @@
+import Navbar from "./navbar.jsx";
+import { Footer } from "./footer.jsx";
+
 let App=()=>{
   return(
-    <h1>HELLO NITESH</h1>
+    <div>
+      <Navbar />
+      <h1>This Is Home Page</h1>
+      <Footer />
+    </div>
   )
 }
 
