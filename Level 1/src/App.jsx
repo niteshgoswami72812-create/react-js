@@ -14,7 +14,7 @@ let App=()=>{
       <h1>This Is Home Page</h1>
       <img src={image} alt="" />
       <img src="favicon.svg" alt="" />
-      <h2>my name is {myname}</h2>
+      <h2>my name is {myname}</h2> //javascript
       <Footer />
     </div>
   )
