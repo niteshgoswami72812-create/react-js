@@ -1,27 +1,26 @@
+
+
 import React from 'react'
 
 const PChild = ({ Mydetails }) => {
-
-    console.log(Mydetails);
-    
-
-  let { name, age, city, ram } = Mydetails
-  let { fullname, mobile } = ram
+  let { img, employee, fullname, age, city, mobile } = Mydetails
 
   return (
     <>
-      <h1>PChild</h1>
+      <div id="box">
+        <div id="innerbox">
 
-      <p>Name : {name}</p>
-      <p>Age : {age}</p>
-      <p>City : {city}</p>
+          <img src={img} alt="profile" width="80px" />
 
-      <h2>Ram Details</h2>
+          <h2>{employee}</h2>
 
-      <p>Full Name : {fullname}</p>
-      <p>Age : {ram.age}</p>
-      <p>City : {ram.city}</p>
-      <p>Mobile : {mobile}</p>
+          <p>Full Name : {fullname}</p>
+          <p>Age : {age}</p>
+          <p>City : {city}</p>
+          <p>Mobile : {mobile}</p>
+
+        </div>
+      </div>
     </>
   )
 }

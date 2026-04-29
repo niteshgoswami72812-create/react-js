@@ -1,0 +1,66 @@
+/* PC.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background-image: url(../src/assets/pexels-jessbaileydesign-35242571.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(12, 1, 1);
+    font-size: 20px;
+   
+
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 20px;
+     font-family: cursive;
+
+}
+
+#box {
+    border: 1px solid transparent;
+    border-radius: 15px;
+    width: 250px;
+    background: transparent;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.3);
+    color: rgb(2, 9, 10);
+    transition: 0.4s;
+    text-align: center;
+}
+
+
+
+#box h2 {
+    /* margin-bottom: 10px; */
+    font-size: 20px;
+     font-family:Arial, Helvetica, sans-serif;
+     color: blue;
+}
+
+#box p {
+    font-size: 18px;
+    /* margin: 6px 0; */
+}
+
+#innerbox {
+    padding: 15px;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+}
