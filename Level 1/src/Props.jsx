@@ -48,7 +48,7 @@ const Props = () => {
       img: image5,
       employee: "Employee 5",
       fullname: "Sourabh Tiwari",
-      age: 28,
+      age: 28, 
       city: "Bhopal",
       mobile: "567891234"
     },
