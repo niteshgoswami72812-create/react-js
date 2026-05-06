@@ -7,6 +7,7 @@ import About from './Pages/About'
 import Contact from './Pages/Contact'
 
 const Tailwind = () => {
+
   const show = () => {
     alert("hello")
   }
@@ -15,14 +16,17 @@ const Tailwind = () => {
     <>
       <Navbar />
 
-      <div className="flex justify-center items-center h-screen">
+  
+      <div className="flex justify-center items-center h-[100vh] bg-gradient-to-r from-blue-500 to-purple-600">
         <button
           onClick={show}
-          className="bg-amber-400 border-2 border-black p-2 rounded"
+          className="bg-red-500 border-2 border-black p-2 rounded text-white"
         >
-          DAWAO MUJHE
+          CLICK-ME
         </button>
+      </div>
 
+      <div className="p-4">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
