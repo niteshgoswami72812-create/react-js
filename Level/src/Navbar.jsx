@@ -1,8 +1,9 @@
 import React from 'react'
-import { Link } from "react-router-dom"
+import { Link, Outlet } from "react-router-dom"
 
 const Navbar = () => {
   return (
+    <>
     <nav>
       <ul className="flex justify-center items-center gap-10 bg-black text-white p-4">
         <li><Link to="/home">HOME</Link></li>
@@ -10,6 +11,11 @@ const Navbar = () => {
         <li><Link to="/contact">CONTACT</Link></li>
       </ul>
     </nav>
+
+    <Outlet/>
+
+    <footer>This is footer</footer>
+    </>
   )
 }
 
